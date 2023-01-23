@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    not-pure-poole (0.1.0)
+    whatfuck (0.1.0)
       jekyll (~> 3.9)
       jekyll-feed (~> 0.13)
       jekyll-gist (~> 1.5)
@@ -28,7 +28,7 @@ GEM
     http_parser.rb (0.6.0)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
-    jekyll (3.9.0)
+    jekyll (3.9.2)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -60,8 +60,8 @@ GEM
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
-    liquid (4.0.3)
-    listen (3.2.1)
+    liquid (4.0.4)
+    listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
@@ -87,15 +87,18 @@ GEM
     sawyer (0.8.2)
       addressable (>= 2.3.5)
       faraday (> 0.8, < 2.0)
+    webrick (1.7.0)
 
 PLATFORMS
   ruby
+  x64-mingw-ucrt
 
 DEPENDENCIES
   bundler (~> 2.1)
   jekyll-compose
-  not-pure-poole!
   rake (~> 12.0)
+  webrick (~> 1.7)
+  whatfuck!
 
 BUNDLED WITH
    2.1.4

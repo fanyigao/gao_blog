@@ -1,6 +1,6 @@
 # Setup
-title: Not Pure Poole
-description: A simple, beautiful, and powerful Jekyll theme for blogs
+title: 高逸凡的博客
+description: 记录学习的日常
 url: https://fanyigao.github.io
 avatar: /avatar.jpeg
 paginate: 5
@@ -29,14 +29,14 @@ exclude:
 
 # Optimize Jekyl SEO Tag
 twitter:
-  username: vszhub
+  username: wwe16333
   card: summary
 logo: logo.png
 social:
-  name: Songzi Vong
+  name: gaoyifan
   links:
-    - https://twitter.com/vszhub
-    - https://github.com/vszhub
+    - https://twitter.com/wwe16333
+    - https://github.com/fanyigao
 google_site_verification: xxxxx
 lang: en
 
@@ -54,6 +54,6 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Songzi Vong
-  url: https://github.com/vszhub/
-  email: vszhub@gmail.com
+  name: gaoyifan
+  url: https://github.com/fanyigao/
+  email: wwe88017210@gmail.com
